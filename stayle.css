@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav {
+    background-color: rgb(255, 164, 179);
+    display: flex;
+    /* height: 50px; */
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: rgb(105, 78, 105);
+}
+.brand {
+    font-weight: bold;
+    margin-right: 10px;
+}
+.menu {
+    flex-grow: 1;
+}
+#welcome {
+    height: 70vh;
+    background-color: rgba(183, 136, 173, 0.266);
+    background-image: url(/icon.png);
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px;
+}
+#welcome h1 {
+    margin: 0;
+    font-size: 50px;
+}
+#welcome p {
+    max-width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn {
+    background-color: rgb(209, 162, 253);
+    color: wheat;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+#Skills-programming header {
+    text-align: center;
+}
+#Skills-programming h1{
+    font-size: 35px;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.list div {
+    margin: 5px;
+    max-width: 400px;
+}
+.card {
+    border: 1px solid rgba(216, 112, 147, 0.315);
+    border-radius: 5px;
+}
+.img {
+    height: 300px;
+    width: 100%;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+.content {
+    text-align: center;
+}
+footer {
+    background-color: rgb(255, 164, 179);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
